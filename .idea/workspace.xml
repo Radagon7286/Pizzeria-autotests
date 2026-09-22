@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e16d1e12-41c1-4756-afa8-62d284b237fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/python_my.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/environment.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/browser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/website launch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tox.ini" afterDir="false" />
+    <list default="true" id="e16d1e12-41c1-4756-afa8-62d284b237fd" name="Changes" comment="Исправил все">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_2/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/module/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +156,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_ekample.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in C:/Users/MSI/PycharmProjects/Python_my/test_ekample.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python_my" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -187,7 +176,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in test_ekample.py" />
+        <item itemvalue="Python tests.Python tests in C:/Users/MSI/PycharmProjects/Python_my/test_ekample.py" />
         <item itemvalue="Python tests.Python tests for test_ekample.TestExample.test_example" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.test_ekample" />
@@ -220,12 +209,43 @@
       <workItem from="1788456864116" duration="462000" />
       <workItem from="1788457337484" duration="1095000" />
       <workItem from="1788458443052" duration="1792000" />
-      <workItem from="1790062462083" duration="2421000" />
+      <workItem from="1790062462083" duration="8259000" />
     </task>
+    <task id="LOCAL-00001" summary="123">
+      <option name="closed" value="true" />
+      <created>1790065150701</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1790065150701</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Исправил">
+      <option name="closed" value="true" />
+      <created>1790075667805</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1790075667805</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Исправил все">
+      <option name="closed" value="true" />
+      <created>1790075958473</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1790075958473</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="123" />
+    <MESSAGE value="Исправил" />
+    <MESSAGE value="Исправил все" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправил все" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
