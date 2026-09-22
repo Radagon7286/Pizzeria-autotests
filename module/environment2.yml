@@ -1,0 +1,14 @@
+name: python_my_2
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10.13
+  - pytest>=7.4.0
+  - selenium>=4.10.0
+  - webdriver-manager
+  - pip
+  - pip:
+    - allure-pytest
+    - allure-python-commons
+    - chromedriver-binary==114.0.5735.90
