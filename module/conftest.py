@@ -10,6 +10,7 @@ def set_up_browser():
     options = Options()
     options.set_capability("browserVersion", "latest")
     options.set_capability("platformName", "windows")
+    #options.page_load_strategy = 'normal'
 
     # Автоматически скачает и установит ChromeDriver
     service = Service(ChromeDriverManager().install())
