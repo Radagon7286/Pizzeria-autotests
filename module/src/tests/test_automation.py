@@ -170,9 +170,3 @@ class TestCases:
 
         with allure.step('Проверяем результат'):
             time.sleep(5)
-
-
-
-
-
-
