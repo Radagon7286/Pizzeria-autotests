@@ -1,20 +1,30 @@
 import pytest
+import os
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
+import logging.config
+from os import  path
+import logging
+
+project_root = path.dirname(path.dirname(path.abspath(__file__)))
+lof_file_path = path.join(project_root, 'logging.ini')
+logging.config.fileConfig(lof_file_path)
 
 
 @pytest.fixture
-def set_up_browser():
+def selenium():
     options = Options()
     options.set_capability("browserVersion", "latest")
     options.set_capability("platformName", "windows")
+    logging.info(f"options: {options}")
     #options.page_load_strategy = 'normal'
 
     # Автоматически скачает и установит ChromeDriver
     service = Service(ChromeDriverManager().install())
-    driver = webdriver.Chrome(service=service, options=options)
+    selenium = webdriver.Chrome(service=service, options=options)
+    logging.info(f"selenium: {selenium}")
 
-    yield driver
-    driver.quit()
+    yield selenium
+    selenium.quit()

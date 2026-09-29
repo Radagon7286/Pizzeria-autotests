@@ -10,3 +10,4 @@ dependencies:
 - pip:
 - allure-pytest
 - allure-python-commons
+- flake8
