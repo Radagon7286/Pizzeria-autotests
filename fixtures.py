@@ -4,13 +4,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 import logging.config
-from os import  path
 import logging
-
-
-project_root = path.dirname(path.dirname(path.abspath(__file__)))
-lof_file_path = path.join(project_root, 'logging.ini')
-logging.config.fileConfig(lof_file_path)
 
 
 @pytest.fixture
@@ -28,3 +22,4 @@ def selenium():
     yield selenium
 
     selenium.quit()
+    logging.info("Браузер успешно закрыт")

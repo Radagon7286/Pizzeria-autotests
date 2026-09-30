@@ -6,6 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.action_chains import ActionChains
 
+
 @allure.feature('Full Account')
 @allure.story('Waiting page load')
 class TestCases:

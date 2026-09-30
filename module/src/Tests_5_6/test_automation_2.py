@@ -8,6 +8,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.ui import Select
 
+
 @allure.feature('Full Account')
 @allure.story('Waiting page load')
 class TestCases2:
