@@ -13,3 +13,4 @@ dependencies:
     - allure-python-commons
     - chromedriver-binary==114.0.5735.90
     - flake8
+    - pytest-playwright
