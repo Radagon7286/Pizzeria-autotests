@@ -13,5 +13,5 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone (https://gitlab.skillbox.ru/vitalii_pervukhin/python-autotests-basic/-/tree/master?ref_type=heads)
-   cd module
+   git clone https://github.com/Radagon7286/Pizzeria-autotests.git
+cd Pizzeria-autotests
