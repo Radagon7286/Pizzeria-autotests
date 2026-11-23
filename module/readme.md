@@ -21,3 +21,13 @@
 
 ## 🐞 Баг-репорты
 [Ссылка на баг-репорты](https://docs.google.com/spreadsheets/d/1mqxcPO2QkMAqwYW03WQoIGdusQnZAFDHxSq8c79NRlo/edit?usp=sharing)
+
+## 📊 Allure Отчет
+Скачать архив с отчетом и инструкцией можно в разделе [Releases](https://github.com/Radagon7286/Pizzeria-autotests/releases/tag/v1.0))
+
+### Просмотр Allure-отчета
+1. Скачайте и распакуйте архив с отчетом (из раздела Releases).
+2. Откройте терминал в папке `allure-report`.
+3. Запустите локальный сервер: `python -m http.server 8000`
+4. Перейдите в браузере по адресу: `http://localhost:8000`
+*(Не открывайте index.html двойным кликом, это вызовет ошибку CORS).*
